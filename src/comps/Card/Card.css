@@ -1,0 +1,17 @@
+.card{
+    /* max-width: 314px;
+    min-width: 160px; */
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #425A60;
+}

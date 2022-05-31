@@ -1,0 +1,12 @@
+.colorstick{
+    background: #D8D8D8;
+    /* min-width: 375px; */
+    width: 100vw;
+    min-height: 8px;
+    display: flex;
+}
+.colorstick-fill{
+    z-index: 1 ;
+    background: linear-gradient(290.47deg, #3797FA 11.33%, #45C9FF 83.66%);
+    border-radius: 30px;
+}

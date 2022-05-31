@@ -1,0 +1,53 @@
+.w-btn{
+    width: 277px;
+    height: 58px;
+    background: linear-gradient(270deg, #45C7FA 0%, #2196F3 100%);
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.03);
+    border-radius: 24px;
+    border: none;
+    /* текст стили */
+    font-family: 'Roboto' ,sans-serif;;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.w-btn-noactive{
+    margin-bottom: 10px;
+    margin-top: 15px;
+    width: 277px;
+    height: 58px;
+    border: none;
+    background: #DEDEDE;
+    border-radius: 24px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+@media all and (max-width: 425px) {
+    .w-btn{
+        width: 237px;
+        height: 58px;
+    }
+    .w-btn-noactive{
+        width: 181px;
+        height: 48px;
+    }
+}
+@media all and (max-width: 375px) {
+    .w-btn{
+        width: 177px;
+        height: 48px;
+    }
+    .w-btn-noactive{
+        width: 181px;
+        height: 48px;
+    }
+}
